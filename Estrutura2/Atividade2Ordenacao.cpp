@@ -121,7 +121,7 @@ bool verifica(Time times, Time time2){
             return true;
         }else if(times.pontos==time2.pontos &&times.vitorias==time2.vitorias&&times.saldo==
                 time2.saldo&&times.golsPro<time2.golsPro){
-
+            return true;
         }
 
         return false;
